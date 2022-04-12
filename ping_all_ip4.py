@@ -1,6 +1,6 @@
 import subprocess
 #for loop with 4 variables to ping all IPs in a list
-upper_bound = 255
+upper_bound = 256
 for i in range(1,upper_bound):
 	for j in range(0,upper_bound):
 		for k in range(0,upper_bound):
